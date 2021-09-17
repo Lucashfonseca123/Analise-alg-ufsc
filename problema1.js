@@ -32,6 +32,10 @@ const shortestPath = (A = Map, final = '', cost) => {
     return `\nCaminho final: ${routeFinal.reverse()} \nCusto: ${cost}`;
 }
 
+/* 
+    Algoritmo de Bellman-ford
+*/
+
 const main = (C = [], L = Map, Cs = '', Ct = '') => {
     if (C.length === 1) {                                               // Verificação unico vértice.
         return 'Unico vértice';
